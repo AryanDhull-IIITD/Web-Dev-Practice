@@ -135,6 +135,27 @@ main{
 }
 
 
+.third-row{
+    display: flex;
+    justify-content: center;
+    padding: 60px 400px;
+}
+
+.blue{
+    background-color: #3882F6;
+    width:100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.text{
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
 
 button{
     background-color: #3882F6;
