@@ -113,6 +113,28 @@ main{
     box-shadow: 0 0 0 8px #3882F6; 
 }
 
+.second-row {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 5px; 
+}
+
+.author {
+    align-self: flex-end; 
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+
 
 button{
     background-color: #3882F6;
