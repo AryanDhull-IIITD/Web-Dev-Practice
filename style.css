@@ -5,11 +5,14 @@ body{
     margin: 0;
     background-color: #1F2937;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 main{
     background-color:white;
-    flex:1
+    flex:1;
+    margin:0 auto;
+    width:100%;
 }
 
 .top-row{
@@ -148,7 +151,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 100px;
 }
 
 .text{
